@@ -1,0 +1,8 @@
+{
+    "editor.mouseWheelZoom": true,
+    "diffEditor.wordWrap": "on",
+    "files.associations": {
+        "xstring": "cpp"
+    }
+    
+}

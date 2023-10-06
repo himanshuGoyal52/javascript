@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dargon Travel desk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+        <strong>Success!</strong> Your travel request has been successfully submitted
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+        <strong>Failure!</strong> Your travel request has not been successfully submitted retry
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="container my-3">
+        <h1 style="text-align: center;">Hello buddy</h1>
+
+        <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Enter your name</label>
+              <input type="text" class="form-control " id="name">
+              <small id="nameValid" class="form-text invalid-feedback">
+                Your user name must be 2-20 characters long and should not starts with a number
+              </small>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Enter your email address</label>
+              <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
+              <small id="emailValid" class="form-text invalid-feedback">
+                Enter a valid e-mail id
+              </small>
+            </div>
+            <div class="mb-3">
+              <label for="number" class="form-label">Enter your phone number</label>
+              <input type="text" class="form-control" id="number" >
+              <small id="numberValid" class="form-text invalid-feedback">
+                Enter a valid phone number(10 digit long)
+              </small>
+            </div>
+            <div class="mb-3">
+              <label for="car" class="form-label">Select your car</label>
+              <select class="form-control" id="car">
+                <option value="">Omni</option>
+                <option value="">Maruti 800</option>
+                <option value="">Ford Titanium</option>
+                <option value="">Audi A4</option>
+              </select>
+            </div>
+            
+            <div class="mb-3">
+              <label for="address" class="form-label">Enter your full address</label>
+              <textarea id="address" class="form-control" rows="3"></textarea>
+            </div>
+            
+            <button id="sbmt" type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

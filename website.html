@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            /* margin: 50px 0px; */
+            height: 60px;
+            align-items: center;
+        }
+        #firstChild{
+            background-color: aqua;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 13px;
+        }
+        #secondChild{
+            background-color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 13px;
+        }
+        #thirdChild{
+            background-color: rgb(229, 99, 247);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 13px;
+        }
+        #fourthChild{
+            background-color: burlywood;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 13px;
+        }
+        .Link{
+            text-decoration: none;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            transition:  0.3s ;
+            display: block;
+            text-align: center;
+            margin: 10px 0px;
+            border: 2px solid black;
+        }
+        .Link:hover{
+            color: blue;
+            text-transform:uppercase;
+        }
+        #heading{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .childul{
+            list-style: none;
+        }
+        .this{
+            padding: 0px;
+            background-color: white;
+        }
+        #edit{
+            height: 20px;
+            border: 1px solid black;
+            cursor:text;
+        }
+        img{
+            width: 10rem;
+            display: none;
+        }
+        button{
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border: 1px solid black;
+            background-color: indianred;
+            border-radius: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="shinchan tomAndJerry" id="heading">Welcome to coding world</h1>
+     <div class="container">
+         <!-- this is comment  -->
+         <div class="child red good" id="firstChild">Child 1
+             <ul class="this" id="myul">
+                 <li class="childul">This</li>
+                 <li class="childul">is</li>
+                 <li class="childul" id="myy">my</li>
+                 <li class="childul">future</li>
+                 <li class="childul" id="lastEle">list</li>
+             </ul>
+         </div>
+         <div class="child" id="secondChild">Child 2</div>
+         <div class="child" id="thirdChild">Child 3</div>
+         <div class="child" id="fourthChild">Child 4</div>
+     </div>
+     <form action="none.html" class="center" method="post">
+         <input type="text">
+         <!-- <input type="button" id="btn" value="Submit"> -->
+         <button id="btn">Submit</button> <!-- 18 -->
+     </form>
+     <a class="Link" href="http://127.0.0.1:5500/index.html">index</a>
+     <a class="Link" href="http://127.0.0.1:5500/allo.html">index</a>
+     <a class="Link" href="http://127.0.0.1:550/index-1.html">index</a>
+     <a class="Link" href="http://127.0.0.1:5510/web.html">index</a>
+     <div style="text-align: center;" id="edit">
+        edit here
+    </div>
+    <!-- tut37 -->
+    <h1>Students List</h1>
+    <ul id="students">
+    </ul>
+
+    <div >
+        <button id="mybtn">Your Button</button>
+        <button>Fetch Data</button>
+        <div id="content"></div>
+    </div>
+
+    <img src="./images/20181227_000559.png" alt="">
+    <img src="./images/20210927_195816.jpg" alt="">
+    <!-- <iframe width="474.5" height="267" src="https://www.youtube.com/embed/_6COl6V6mng?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA" title="Lecture 54: Introduction to Stacks [Theory + Implementation] || C++ Placement Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</body>
+<!-- <script src="tut21.js"></script> -->
+<script>
+    console.log("JavaScript by Himanshu Goyal");
+</script>
+<script src="tut43.js"></script>
+</html>

@@ -1,0 +1,18 @@
+/*-*/console.time('myCode took time');
+console.log("I Like you , you are good but do not take it other way");
+console.log(12+15);
+console.log(true);
+console.log(18);
+/*Array*/ console.log([1,2,3,4,5,6,7,8,9,10]);
+/*Object*/ console.log({harry : 12 , happy : "chutiya" , galli : "akljf"});
+/*Object*/ console.table({harry : 12 , happy : "chutiya" , galli : "akljf"});
+console.warn("This is waring");
+console.error("I like Anushka verma");
+console.info("Mai hun chutiya , mera dimag hai chutiya");
+/*-*/console.timeEnd('myCode took time');
+var age = 190;
+console.assert(age<189 , 'age above 189 is not possible');
+// console.clear();
+console.count('I Like Anushka Verma');
+console.count('I Like Anushka Verma');
+console.count('I Like Anushka Verma');

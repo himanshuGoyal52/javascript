@@ -1,0 +1,1 @@
+console.log("Solution of Alarm clock exercise 6");
