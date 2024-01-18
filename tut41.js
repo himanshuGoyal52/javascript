@@ -31,5 +31,5 @@ console.log(str);
    console.log(greet("Happy"));
 // NOTE : single parameters do not need () but you will have to put () if there are multiple parameters
 const MorGreet = (name , ending) => "Good Morning " + name + " " + ending ; 
-console.log(MorGreet("Goyal", "SC"));
+console.log(MorGreet("Goyal", "og"));
 
